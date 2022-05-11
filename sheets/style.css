@@ -124,7 +124,7 @@ body {
 .nav__item {
   text-decoration: none;
   font-size: 1.2rem;
-  font-family: "MyriadProRegular";
+  font-family: 'MyriadProRegular';
   text-transform: uppercase;
   line-height: 1.6;
   letter-spacing: 2px;
@@ -170,7 +170,7 @@ body {
 .content__subtitle {
   padding-top: 4rem;
   font-size: 1.7rem;
-  font-family: "DINPro", sans-serif;
+  font-family: 'DINPro', sans-serif;
   line-height: 1;
   font-weight: normal;
   text-transform: uppercase;
@@ -185,13 +185,13 @@ body {
   text-transform: uppercase;
   line-height: 1;
   letter-spacing: 2px;
-  font-family: "Gilroy-Light";
+  font-family: 'Gilroy-Light';
   font-weight: 300;
   padding-bottom: 1.5rem;
 }
 
 .content__title-sub {
-  font-family: "Gilroy-Extrabold";
+  font-family: 'Gilroy-Extrabold';
   font-size: 6.5rem;
 }
 
@@ -199,7 +199,7 @@ body {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  font-family: "MyriadProRegular", sans-serif;
+  font-family: 'MyriadProRegular', sans-serif;
   font-size: 1.4rem;
   letter-spacing: 2px;
   background-color: #ff6a9f;
@@ -374,7 +374,7 @@ body {
   border-radius: 2.5rem;
 }
 .key__title {
-  font-family: "GilroyRegular";
+  font-family: 'GilroyRegular';
   display: inline-block;
   font-size: 6rem;
   text-transform: uppercase;
@@ -385,7 +385,7 @@ body {
 }
 
 .key__title span {
-  font-family: "Gilroy-Extrabold";
+  font-family: 'Gilroy-Extrabold';
 }
 
 .key__items {
@@ -394,7 +394,7 @@ body {
   font-size: 1.6rem;
   font-weight: normal;
   color: #2e2e2e;
-  font-family: "MyriadProRegular";
+  font-family: 'MyriadProRegular';
 }
 
 
@@ -484,7 +484,7 @@ body {
   font-size: 1.6rem;
   font-weight: normal;
   color: #2e2e2e;
-  font-family: "MyriadProRegular";
+  font-family: 'MyriadProRegular';
 }
 .close-btn {
   position: absolute;
@@ -522,7 +522,7 @@ body {
 li::before {
   content: "0" counter(list);
   color: #8cc9e8;
-  font-family: "Gilroy-Extrabold";
+  font-family: 'Gilroy-Extrabold';
   font-size: 1.7rem;
   line-height: 1.6;
 }
