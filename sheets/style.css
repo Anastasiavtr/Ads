@@ -11,7 +11,7 @@
   src: url('../fonts/MyriadProRegular.woff2') format('woff2');
   src: url('../fonts/MyriadProRegular.ttf') format('truetype');
   font-style: normal;
-  font-weight: 400;
+  font-weight: normal;
 }
 @font-face {
   font-family: 'Gilroy-light';
@@ -19,13 +19,13 @@
   src: url('../fonts/Gilroy-Light.woff2') format('woff2');
   src: url('../fonts/GilroyLight.ttf') format('truetype');
   font-style: normal;
-  font-weight: 300;
+  font-weight: normal;
 }
 @font-face {
   font-family: 'Gilroy-Extrabold';
   src: url('../fonts/Gilroy-Extrabold.woff') format('woff');
   font-style: normal;
-  font-weight: 300;
+  font-weight: normal;
 }
 @font-face {
   font-family: 'GilroyRegular';
@@ -33,7 +33,7 @@
   src: url('../fonts/GilroyRegular.woff2') format('woff2');
   src: url('../fonts/GilroyRegular.ttf') format('truetype');
   font-style: normal;
-  font-weight: 400;
+  font-weight: normal;
 }
 
 @font-face {
