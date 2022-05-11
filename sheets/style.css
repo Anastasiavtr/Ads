@@ -1,38 +1,38 @@
 @font-face {
-  font-family: "DINPro";
-  src: url("../fonts/DINPro.woff") format("woff");
+  font-family: 'DINPro';
+  src: url('../fonts/DINPro.woff') format('woff');
   font-style: normal;
   font-weight: normal;
 }
 
 @font-face {
-  font-family: "MyriadProRegular";
-  src: url("../fonts/MyriadProRegular.woff") format("woff");
+  font-family: 'MyriadProRegular';
+  src: url('../fonts/MyriadProRegular.woff') format('woff');
   font-style: normal;
   font-weight: 400;
 }
 @font-face {
-  font-family: "Gilroy-light";
-  src: url("../fonts/Gilroy-Light.woff") format("woff");
+  font-family: 'Gilroy-light';
+  src: url('../fonts/Gilroy-Light.woff') format('woff');
   font-style: normal;
   font-weight: 300;
 }
 @font-face {
-  font-family: "Gilroy-Extrabold";
-  src: url("../fonts/Gilroy-Extrabold.woff") format("woff");
+  font-family: 'Gilroy-Extrabold';
+  src: url('../fonts/Gilroy-Extrabold.woff') format('woff');
   font-style: normal;
   font-weight: 300;
 }
 @font-face {
-  font-family: "GilroyRegular";
-  src: url("../fonts/GilroyRegular.woff") format("woff");
+  font-family: 'GilroyRegular';
+  src: url('../fonts/GilroyRegular.woff') format('woff');
   font-style: normal;
   font-weight: 400;
 }
 
 @font-face {
-  font-family: "DINPro-Medium";
-  src: url("../fonts/DINPro-Medium.woff") format("woff");
+  font-family: 'DINPro-Medium';
+  src: url('../fonts/DINPro-Medium.woff') format('woff');
   font-style: normal;
   font-weight: normal;
 }
@@ -41,7 +41,7 @@ html {
   font-size: 16px;
 }
 body {
-  font-family: "DINPro", sans-serif;
+  font-family: 'DINPro', sans-serif;
   color: #171717;
   background-color: #fff;
   overflow-y: hidden;
