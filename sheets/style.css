@@ -315,6 +315,9 @@ body {
   padding-top: 5rem;
   letter-spacing: 1px;
 }
+.info__inner {
+  padding:10px;
+}
 
 .info__scrollbar {
   position: relative;
