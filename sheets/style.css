@@ -1102,7 +1102,7 @@ li::before {
 
   .key__header {
     margin-left: 0;
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
   }
 
   .key__header h2 {
@@ -1160,14 +1160,6 @@ li::before {
     width: 83%;
   }
 
-  .key__header {
-    margin-left: 0;
-  }
-
-  .key__header1 {
-    margin-left: 7rem;
-  }
-
   .bubble-3 {
     top: 12vh;
     width: 10%;
@@ -1189,7 +1181,7 @@ li::before {
   }
 
   .key__wrapper {
-    padding-top: 3rem;
+    padding-top: 2rem;
   }
 
   .pop-up-active {
