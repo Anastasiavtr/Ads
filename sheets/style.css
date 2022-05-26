@@ -73,7 +73,6 @@ body {
   height: 100%;
 
   padding: 0 3rem;
-  margin: 0 3rem;
   margin: 0 auto;
 }
 
@@ -315,9 +314,6 @@ body {
   padding-top: 5rem;
   letter-spacing: 1px;
 }
-.info__inner {
-  padding:10px;
-}
 
 .info__scrollbar {
   position: relative;
@@ -444,8 +440,8 @@ body {
 .key__items {
   display: flex;
   width: 80%;
-  padding-bottom:1rem;
   font-size: 1.6rem;
+  padding-bottom: 1rem;
   font-weight: normal;
   color: #2e2e2e;
   font-family: 'MyriadProRegular';
@@ -535,7 +531,7 @@ body {
   position: absolute;
   display: flex;
  margin-top: 2rem;
-  height: 60vh;
+  height: 70vh;
   width: auto;
 }
 
@@ -1007,16 +1003,16 @@ li::before {
   html {
     font-size: 20px;
   }
-}
-
-@media (min-width:1000px) {
-
   .pop-up-active {
    
-    height: 70vh;
+    height: 80vh;
 }
+}
+@media (min-width:1000px) {
 
-  
+
+
+}
 @media screen and (min-width:768px) and (orientation:portrait) {
   html {
     font-size: 16px;
@@ -1087,6 +1083,9 @@ li::before {
     font-size: 12px;
   }
 
+.container {
+  padding: 0 0.5rem;
+}
   .content__title {
     font-size: 4rem;
   }
@@ -1168,6 +1167,7 @@ li::before {
     width: 83%;
   }
 
+
   .bubble-3 {
     top: 12vh;
     width: 10%;
@@ -1215,9 +1215,7 @@ li::before {
 
 
 @media (max-width: 375px) {
- .container {
-  padding: 0 0.5rem;
-} 
+
 .close-btn {
   font-size: 4rem;
   width: 3rem;
@@ -1231,4 +1229,6 @@ li::before {
   padding: 0.4rem 1rem;
   letter-spacing: 1px;
 }
+
 }
+  
