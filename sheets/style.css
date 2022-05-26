@@ -1072,7 +1072,7 @@ li::before {
 
 @media (max-width: 480px) {
   html {
-    font-size: 14px;
+    font-size: 12px;
   }
 
   .content__title {
