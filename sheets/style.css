@@ -444,6 +444,7 @@ body {
 .key__items {
   display: flex;
   width: 80%;
+  padding-bottom:1rem;
   font-size: 1.6rem;
   font-weight: normal;
   color: #2e2e2e;
