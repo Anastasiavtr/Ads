@@ -230,6 +230,7 @@ body {
   justify-content: center;
   font-family: 'MyriadProRegular', sans-serif;
   font-size: 1.4rem;
+  color:#171717;
   letter-spacing: 2px;
   background-color: #ff6a9f;
   padding: 0.7rem 1.8rem 0.6rem 1rem;
@@ -529,7 +530,8 @@ body {
 .pop-up-active {
   position: absolute;
   display: flex;
-  height: 40rem;
+ margin-top: 2rem;
+  height: 40%;
   width: auto;
 }
 
@@ -595,7 +597,7 @@ body {
   padding-left: 8.1rem;
   position: relative;
   z-index: 5;
-  transform: translateY(35%);
+  transform: translateY(30%);
 }
 
 li::before {
@@ -1005,7 +1007,7 @@ li::before {
 
 @media screen and (min-width:768px) and (orientation:portrait) {
   html {
-    font-size: 18px;
+    font-size: 16px;
   }
 
   .key__content-img {
@@ -1072,8 +1074,6 @@ li::before {
   html {
     font-size: 14px;
   }
-
-
 
   .content__title {
     font-size: 4rem;
@@ -1207,4 +1207,24 @@ li::before {
   .info__header {
     padding-top: 0;
   }
+}
+
+
+@media (max-width: 375px) {
+ .container {
+  padding: 0 0.5rem;
+} 
+.close-btn {
+  font-size: 4rem;
+  width: 3rem;
+ 
+}
+.key__content-img {
+  display: none;
+}
+
+.btn {
+  padding: 0.4rem 1rem;
+  letter-spacing: 1px;
+}
 }
